@@ -1,0 +1,35 @@
+body {
+    text-align: center; /* Center align everything within the body */
+}
+
+.content {
+    display: inline-block;
+    text-align: left; /* Left align content within .content */
+    padding: 20px;
+    border: 2px solid #ccc; /* Add a border to .content */
+    border-radius: 10px; /* Add rounded corners to .content */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ccc; /* Add borders to table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Gray background for table header */
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="text"], input[type="submit"] {
+    display: block;
+    margin: 10px auto; /* Center the input and submit button */
+}
